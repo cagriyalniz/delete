@@ -1,6 +1,6 @@
 language: java
 sudo: false #false for faster builds 
 script:
-  -"mvn -f demo/pom.xml clean install"
+  -"mvn -f demo/pom.xml clean test install"
 jdk:
   -oraclejdk8
