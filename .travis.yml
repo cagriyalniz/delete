@@ -1,0 +1,6 @@
+language: java
+sudo: false #false for faster builds 
+script:
+  -"mvn -f demo/pom.xml clean install"
+jdk:
+  -oraclejdk8
